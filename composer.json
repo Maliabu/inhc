@@ -1,0 +1,11 @@
+{
+    "name": "inhc/blog",
+    "description": "Integrated Nutritional & Health Center Blog by Patricia Maliabu",
+    "authors": [
+        {
+            "name": "Maliabu",
+            "email": "giramiapatricia61@gmail.com"
+        }
+    ],
+    "require": {}
+}
