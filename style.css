@@ -1,0 +1,106 @@
+body{
+    overflow-x: hidden;
+    font-family: Roboto;
+}
+.generals{
+    background: -webkit-linear-gradient(right,rgba(0, 128, 128, 0),rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.teals{
+    background-color: teal!important;
+}
+.teall{
+    background-color: rgb(2, 88, 88) !important;
+}
+h4, h2{
+    font-weight: lighter !important;
+}
+.one{
+    background: -webkit-linear-gradient(bottom,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+input{
+    background-color: transparent !important;
+}
+.text-black-50{
+    color: black !important;
+}
+.press:hover{
+    transform: scale(1.3);
+    transition: all 250ms ease-out;
+}
+.press1:hover{
+    transform: scale(1.05) !important;
+    transition: all 200ms ease-out !important;
+    cursor: pointer !important;
+}
+.press2:hover{
+    transform: scale(1.3);
+    transition: all 250ms ease-out;
+}
+.press1:active{
+    background-color: rgba(0, 0, 0, 0.671) !important;
+}
+.lines:hover{
+    background-color: rgba(1, 58, 54, 0.589) !important;
+    cursor:  pointer !important;
+}
+.active{
+    border: none !important;
+    background-color: rgb(0, 90, 90) !important;
+    color: aliceblue;
+    cursor: pointer;
+}
+.breastfeeding{
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLexifPFWYbcfFY69RaGOkIZXuc-9Y-6V8w&usqp=CAU");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rainbow{
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqbrvZYxhLFZMLfZgkOlpLeGN4gXuFyQQiw&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.covid{
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rain-bow{
+    background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.63),rgb(255, 255, 255)), url("https://superfoodsrx.com/wp-content/uploads/2016/09/what-does-eat-a-rainbow-mean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: rgb(0, 0, 0) !important;
+}
+.filling{
+    fill: rgb(255, 255, 255) !important;
+}
+.bread a{
+    color: aliceblue !important;
+}
+.maroon{
+    background-color: maroon !important;
+}
+.slogan{
+    color: rgb(1, 78, 78);
+}
+.bod{
+    border-right: 3px solid teal !important;
+}
+.in{
+    background-color: rgba(219, 219, 219, 0);
+}
+.orange{
+    background-color: orange;
+}
+.indigo{
+    background-color: indigo;
+}
+.violet{
+    background-color: violet;
+}
