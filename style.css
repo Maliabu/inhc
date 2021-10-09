@@ -1,17 +1,109 @@
-body{
+html{
     overflow-x: hidden;
     font-family: Roboto;
 }
+.cough{
+    background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.mckenzie-apartments.com/wp-content/uploads/2020/01/healthy.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;}
+    .coughs{
+        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://birthcontrolpharm.files.wordpress.com/2020/11/maternal-mortality-blog-post-birth-control-pharmacist.png");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cougher{
+        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.awarenessdays.com/wp-content/uploads/2020/09/childrens-day-1.jpg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .diab{
+        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://images.edexlive.com/uploads/user/imagelibrary/2020/6/14/original/adobestock_276205639.jpeg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hyp{
+        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.aoa.org/AOA/Images/News_2020/BloodPressurCheck900x450.jpg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .abu{
+        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://images.everydayhealth.com/images/ways-to-prevent-hypertension-alt2-1440x810.jpg?sfvrsn=db2d3945_1");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 .generals{
     background: -webkit-linear-gradient(right,rgba(0, 128, 128, 0),rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .teals{
-    background-color: teal!important;
+    background: -webkit-linear-gradient(top,rgb(89, 180, 180),teal) !important;
 }
 .teall{
-    background-color: rgb(2, 88, 88) !important;
+    border-left: 3px solid rgb(2, 194, 194) !important;
+    color: rgb(2, 194, 194) !important;
+    border-right: 3px solid rgb(2, 194, 194) !important;
+    background-color: rgba(2, 194, 194, 0.185) !important;;
+}
+.actives{
+    color: rgb(0, 204, 204) !important;
+    border-color: rgb(0, 204, 204) !important;
+    cursor:  pointer !important;
+    transform: scale(0.9);
+}
+.three{
+    background-image: url("images/maternal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.well{
+    color: white !important;
+}
+.well:hover{
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+.two{
+    background: -webkit-linear-gradient(right,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://truefitness.com/wp-content/uploads/2019/01/GLOBE2392-athletic-market-header2048x1116_opt1.jpg");
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    }
+    .fa-thumbs-up {
+    color: blue;
+    }
+    .fa-thumbs-down {
+    color: red;
+    }
+    .fa:hover {
+    transform: scale(1.2);}
+.total{
+    background-color: rgb(0, 32, 32);
+}
+.geners{
+    display: none;
+}
+.teally{
+    background: -webkit-linear-gradient(top, white, rgb(89, 180, 180));
+}
+.tealsy{
+    background-color: rgb(0, 32, 32);
+}
+.noItemsText {
+    display: none;
+}
+.full{
+    width: 100%;
 }
 h4, h2{
     font-weight: lighter !important;
@@ -36,9 +128,10 @@ input{
     transform: scale(1.05) !important;
     transition: all 200ms ease-out !important;
     cursor: pointer !important;
+    text-decoration: none !important;
 }
 .press2:hover{
-    transform: scale(1.3);
+    transform: scale(0.9);
     transition: all 250ms ease-out;
 }
 .press1:active{
