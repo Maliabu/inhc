@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#673AB6" >
+    <meta name="theme-color" content="#673AB6">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -17,19 +18,22 @@
     <title>INHC Blog</title>
 </head>
 <style>
-.geners{
-    display: none;
-}
-.noItemsText {
-    display: none;
-    border: none !important;
-}
-.well:hover{
-    color: rgb(0, 217, 255) !important;
-    text-decoration: none;
-    cursor: pointer !important;
-}
-.unos{
+    .geners {
+        display: none;
+    }
+    
+    .noItemsText {
+        display: none;
+        border: none !important;
+    }
+    
+    .well:hover {
+        color: rgb(0, 217, 255) !important;
+        text-decoration: none;
+        cursor: pointer !important;
+    }
+    
+    .unos {
         border-radius: 50%;
         color: transparent;
         background-size: cover;
@@ -37,6 +41,7 @@
         background-image: url("data:image/jpeg;base64,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");
     }
 </style>
+
 <body>
     <div class="row cough p-5">
     </div>
@@ -73,7 +78,7 @@
             <div class="row tealsy text-white pt-5">
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
                     <p><a href="maternal.html" class="well">Maternal Health</a>
-                    <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
+                        <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
                     </p>
                 </div>
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
@@ -120,15 +125,38 @@
                     <p class=" px-5 press1 border-right"><a href="about.html">About</a></p>
                     <p class=" px-5 press1"><a href="about.html#contact">Contact us</a></p>
                 </div>
-            </div> 
+            </div>
             <div class="row text-black-50 one mt-2 p-5 justify-content-start transparent">
                 <div class="row w-100">
                     <h2 class="text-center slogan">
-                        INHC - Welcome to the Blog!
+                        <SPan class=" display-4 next font-weight-bold">INHC</SPan> - Welcome to the Blog!
                     </h2>
                 </div>
                 <p class=" font-weight-bold slogan">we are what we eat...</p>
                 <div class="row w-100">
+                </div>
+            </div>
+            <div class="row">
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner p-4 full">
+                        <div class="carousel-item active text-right p-5 breastfeeding full" data-interval="2000">
+                            <h4 class=" font-weight-bold display-2 next mt-5 p-5">FOOD and <span class=" font-weight-lighter">Nutrition</span></h4>
+                        </div>
+                        <div class="carousel-item text-right px-5 rainbow" data-interval="1000">
+                            <h4 class=" font-weight-bold next display-2 mt-5 p-5">Exercise and <span class=" font-weight-lighter">Behavior</span></h4>
+                        </div>
+                        <div class="carousel-item text-right px-5 covid" data-interval="500">
+                            <h4 class=" font-weight-bold display-2 next mt-5 p-5">Health, Treatment and <span class=" font-weight-lighter">Diet</span></h4>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
             <div class="row p-lg-3 mt-2 three">
@@ -136,7 +164,8 @@
                     <div class="row justify-content-center">
                         <img src="https://img.freepik.com/free-vector/modern-illustration-about-pregnancy-motherhood-beautiful-young-woman-with-long-hair-minimal-design-illustration-cartoon-flat-style_313437-7.jpg?size=338&ext=jpg" alt="" srcset="" width="90" height="90">
                     </div>
-                    <div class="row d-inline text-black-50"><h2 class="align-text-bottom slogan">Maternal Health</h2>
+                    <div class="row d-inline text-black-50">
+                        <h2 class="align-text-bottom slogan">Maternal Health</h2>
                         <p>what is maternal health? | stages of pregnancy | preconception | During Birth | what to eat and not to ...</p>
                         <div class="row justify-content-center">
                             <a href="maternal.html" class="press1"><span class="press1 border rounded-pill border-dark p-1 px-5"> read more</span></a>
@@ -180,30 +209,30 @@
                     <a href="diabetes.html" class="press1"><span class="rounded-pill border border-dark p-1 px-5 press1"> Find out </span></a>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-6">
                     <div class="row">
                         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner p-4 full">
-                              <div class="carousel-item active text-right px-5 breastfeeding" data-interval="10000">
-                                <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Breast Feeding <br> <span class=" font-weight-lighter">Week</span></h4>
-                              </div>
-                              <div class="carousel-item text-right px-5 rainbow" data-interval="5000">
-                                  <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Eat A Rainbow Challenge</h4>
-                              </div>
-                              <div class="carousel-item text-right px-5 covid">
-                                <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">#Stay Safe. #Stay Home</h4>
-                              </div>
+                                <div class="carousel-item active text-right px-5 breastfeeding" data-interval="10000">
+                                    <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Breast Feeding <br> <span class=" font-weight-lighter">Week</span></h4>
+                                </div>
+                                <div class="carousel-item text-right px-5 rainbow" data-interval="5000">
+                                    <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Eat A Rainbow Challenge</h4>
+                                </div>
+                                <div class="carousel-item text-right px-5 covid">
+                                    <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">#Stay Safe. #Stay Home</h4>
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
                             </a>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-3 tealsy text-white">
@@ -225,89 +254,113 @@
                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
                       </svg>
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div> -->
         </div>
     </div>
     <!-- Large modal -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> 
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content p-5 rain-bow">
-      <div class="row py-2">
-          <div class="col-3 bod">
-              <img src="images/logo2.png" alt="" srcset="" width="140" height="80" class=" float-right">
-          </div>
-          <div class="col-2 text-left p-2 ml-2">
-            <h3 class=" font-weight-bold">Rainbow Challenge</h3>
-          </div>
-      </div>
-      <img src="https://miro.medium.com/max/4000/1*-J8kJarMo45AdiLmn-83fw.png" alt="" srcset="">
-      <div class="row bg-light px-5 py-2 rounded">
-        <h5 class="font-weight-bold text-center mt-2">CAN YOU EAT A RAINBOW?</h5><p class=" small">About to have a meal or just had one? Enter the different goodies that make up your meal and get to see how colorful and nutritious your meal can be.</p>
-          <div class="col-lg-6">
-              <p><b>New Challenge</b></p>
-              <h4 class="full text-center">
-                  Ovacado Salad
-              </h4>
-          </div>
-          <div class="col-lg-6 px-2 border-left">
-            <p ><b>Preparation Time</b></p>
-            <h4 class="full text-center">
-                10 minutes
-            </h4>
-        </div>
-      </div>
-      <table class="text-white text-center">
-        <tr class=" p-2 text-center border-bottom">
-            <th class=" tealsy px-2"><h6>COLOR</h6></th>
-          <th class=" bg-danger"><h6>RED</h6></th>
-          <th class=" orange"><h6>ORANGE</h6></th>
-          <th class=" bg-warning"><h6>YELLOW</h6></th>
-          <th class=" bg-success"><h6>GREEN</h6></th>
-          <th class=" bg-primary"><h6>BLUE</h6></th>
-          <th class=" indigo"><h6>INDIGO</h6></th>
-          <th class=" violet"><h6>VIOLET</h6></th>
-        </tr>
-          <tr class=" border-bottom text-black-50">
-            <th class="tealsy text-white px-2"><h6>ITEM</h6></th>
-            <td class="border-right">cherry tomatoes</td>
-            <td class="border-right">oranges</td>
-            <td class="border-right">corn</td>
-            <td class="border-right">green lettuce, avocado, green beans</td>
-            <td class="border-right"></td>
-            <td class="border-right">meat cuts</td>
-            <td>purple cabbages</td>
-          </tr>
-          <tr class="text-black-50  border-bottom">
-            <th class=" tealsy px-2 text-white"><h6>NUTIENTS</h6></th>
-            <td class="border-right">vitamins</td>
-            <td class="border-right">vitamins</td>
-            <td class="border-right">carbohydrates</td>
-            <td class="border-right">vitamins, proteins</td>
-            <td class="border-right"></td>
-            <td class="border-right">proteins</td>
-            <td>rouphages</td>
-          </tr>
-      </table>
-      <div class="row mt-2">
-          <div class="col-3 bod"><h6 class=" font-weight-bold"><span class=" text-center">RESULTS</span>
-            <div class="progress"> 
-                <div class="progress-bar-striped orange" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
-                <div class="progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div> COLORFUL: 87%</h6>
-              <div class="progress">
-                <div class="progress-bar orange" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">87%</div>
-              </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-5 rain-bow">
+                <div class="row py-2">
+                    <div class="col-3 bod">
+                        <img src="images/logo2.png" alt="" srcset="" width="140" height="80" class=" float-right">
+                    </div>
+                    <div class="col-2 text-left p-2 ml-2">
+                        <h3 class=" font-weight-bold">Rainbow Challenge</h3>
+                    </div>
+                </div>
+                <img src="https://miro.medium.com/max/4000/1*-J8kJarMo45AdiLmn-83fw.png" alt="" srcset="">
+                <div class="row bg-light px-5 py-2 rounded">
+                    <h5 class="font-weight-bold text-center mt-2">CAN YOU EAT A RAINBOW?</h5>
+                    <p class=" small">About to have a meal or just had one? Enter the different goodies that make up your meal and get to see how colorful and nutritious your meal can be.</p>
+                    <div class="col-lg-6">
+                        <p><b>New Challenge</b></p>
+                        <h4 class="full text-center">
+                            Ovacado Salad
+                        </h4>
+                    </div>
+                    <div class="col-lg-6 px-2 border-left">
+                        <p><b>Preparation Time</b></p>
+                        <h4 class="full text-center">
+                            10 minutes
+                        </h4>
+                    </div>
+                </div>
+                <table class="text-white text-center">
+                    <tr class=" p-2 text-center border-bottom">
+                        <th class=" tealsy px-2">
+                            <h6>COLOR</h6>
+                        </th>
+                        <th class=" bg-danger">
+                            <h6>RED</h6>
+                        </th>
+                        <th class=" orange">
+                            <h6>ORANGE</h6>
+                        </th>
+                        <th class=" bg-warning">
+                            <h6>YELLOW</h6>
+                        </th>
+                        <th class=" bg-success">
+                            <h6>GREEN</h6>
+                        </th>
+                        <th class=" bg-primary">
+                            <h6>BLUE</h6>
+                        </th>
+                        <th class=" indigo">
+                            <h6>INDIGO</h6>
+                        </th>
+                        <th class=" violet">
+                            <h6>VIOLET</h6>
+                        </th>
+                    </tr>
+                    <tr class=" border-bottom text-black-50">
+                        <th class="tealsy text-white px-2">
+                            <h6>ITEM</h6>
+                        </th>
+                        <td class="border-right">cherry tomatoes</td>
+                        <td class="border-right">oranges</td>
+                        <td class="border-right">corn</td>
+                        <td class="border-right">green lettuce, avocado, green beans</td>
+                        <td class="border-right"></td>
+                        <td class="border-right">meat cuts</td>
+                        <td>purple cabbages</td>
+                    </tr>
+                    <tr class="text-black-50  border-bottom">
+                        <th class=" tealsy px-2 text-white">
+                            <h6>NUTIENTS</h6>
+                        </th>
+                        <td class="border-right">vitamins</td>
+                        <td class="border-right">vitamins</td>
+                        <td class="border-right">carbohydrates</td>
+                        <td class="border-right">vitamins, proteins</td>
+                        <td class="border-right"></td>
+                        <td class="border-right">proteins</td>
+                        <td>rouphages</td>
+                    </tr>
+                </table>
+                <div class="row mt-2">
+                    <div class="col-3 bod">
+                        <h6 class=" font-weight-bold"><span class=" text-center">RESULTS</span>
+                            <div class="progress">
+                                <div class="progress-bar-striped orange" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> COLORFUL: 87%</h6>
+                        <div class="progress">
+                            <div class="progress-bar orange" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">87%</div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h6>NUTRITIOUS: 57%</h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          <div class="col-3"><h6>NUTRITIOUS: 57%</h6>
-            <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div></div>
-      </div>
+        </div>
     </div>
-  </div>
-</div>
     <div class="row maroon text-white p-3 justify-content-center">
         <div class="row">
             <h6 class="border-right px-5 py-1 press1"><a href="general.html" class="well">Food</a></h6>
@@ -317,13 +370,13 @@
             <div class=" rounded border row justify-content-center ml-5 px-5">
                 <div class="row mt-3">
                     <p class="small plusCount" id="clicks">0 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" class="plusBtn bi bi-hand-thumbs-up press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" class="plusBtn bi bi-hand-thumbs-up press1 filling" viewBox="0 0 16 16">
                     <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" class="minusBtn bi bi-hand-thumbs-down press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" class="minusBtn bi bi-hand-thumbs-down press1 filling" viewBox="0 0 16 16">
                     <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964l-.261.065zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1z"/>
                 </svg>
-                <p class="small minusCount" id="clicked"> 0</p>
+                    <p class="small minusCount" id="clicked"> 0</p>
                 </div>
             </div>
             <div class="ml-4 row">Give us feedback</div>
@@ -331,30 +384,32 @@
     </div>
 </body>
 <script lang="javascript">
-/////////////////
+    /////////////////
 
-/////////////////
-document.querySelector(".fa", ".yes").addEventListener("click", function(event) {
-    //instead increment like
-//toggleLike(event);
-incrementLike(event);
-});
-//function toggleLike(ele) {
-//ele.target.classList.toggle("fa-thumbs-down");
-//}
-function toggleLike(ele) {
-ele.target.classList.toggle("fa-thumbs-down");
-}
-    function generalClick(gen){
-        var gen = document.getElementById("general").style.display="block";
+    /////////////////
+    document.querySelector(".fa", ".yes").addEventListener("click", function(event) {
+        //instead increment like
+        //toggleLike(event);
+        incrementLike(event);
+    });
+    //function toggleLike(ele) {
+    //ele.target.classList.toggle("fa-thumbs-down");
+    //}
+    function toggleLike(ele) {
+        ele.target.classList.toggle("fa-thumbs-down");
     }
-    function double(dab){
-        var dab = document.getElementById("general").style.display="none";
+
+    function generalClick(gen) {
+        var gen = document.getElementById("general").style.display = "block";
     }
-    $('#myModal').on('shown.bs.modal', function () {
+
+    function double(dab) {
+        var dab = document.getElementById("general").style.display = "none";
+    }
+    $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').trigger('focus')
-      });
-      $('#myModal').modal(options);
-
+    });
+    $('#myModal').modal(options);
 </script>
+
 </html>
