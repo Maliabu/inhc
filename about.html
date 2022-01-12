@@ -1,131 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="theme-color" content="#673AB6" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <script src="jQuery/jquery-3.3.1.slim.min.js"></script>
-        <script src="bootstrap/popper.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="seach.js"></script>
-        <script src="rainbow.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-        <title>INHC Blog/About</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#673AB6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jQuery/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="seach.js"></script>
+    <script src="rainbow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <title>INHC Blog/About</title>
+</head>
 <style>
-    body{
+    body {
         overflow-x: hidden;
         font-family: Roboto;
     }
-    .generals{
-        background: -webkit-linear-gradient(right,rgba(0, 128, 128, 0),rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
+    
+    .generals {
+        background: -webkit-linear-gradient(right, rgba(0, 128, 128, 0), rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
         background-repeat: no-repeat;
         background-size: contain;
     }
-    .teals{
+    
+    .teals {
         background-color: teal!important;
     }
-    h4, h2{
+    
+    h4,
+    h2 {
         font-weight: lighter !important;
     }
-    .one{
-        background: -webkit-linear-gradient(bottom,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
+    
+    .one {
+        background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
     }
-    .three{
-        background-image: url("static/inhc_Blog/images/maternal.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .two{
-        background: -webkit-linear-gradient(right,rgb(255, 255, 255), rgba(255, 255, 255, 0)), url("static/inhc_Blog/images/htn.jpg");;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    input{
+    
+    
+    input {
         background-color: transparent !important;
     }
-    .text-black-50{
+    
+    .text-black-50 {
         color: black !important;
     }
-    .press:hover{
+    
+    .press:hover {
         transform: scale(1.3);
         transition: all 250ms ease-out;
     }
-    .press1:hover{
+    
+    .press1:hover {
         transform: scale(1.05) !important;
         transition: all 200ms ease-out !important;
         cursor: pointer !important;
     }
-    .press1:active{
+    
+    .press1:active {
         background-color: rgba(0, 0, 0, 0.671) !important;
     }
-    .lines:hover{
+    
+    .lines:hover {
         background-color: rgba(1, 58, 54, 0.589) !important;
-        cursor:  pointer !important;
+        cursor: pointer !important;
     }
-    .active{
+    
+    .active {
         border: none !important;
         background-color: rgb(0, 90, 90) !important;
         color: aliceblue;
         cursor: pointer;
     }
-    .breastfeeding{
+    
+    .breastfeeding {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLexifPFWYbcfFY69RaGOkIZXuc-9Y-6V8w&usqp=CAU");
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .rainbow{
+    
+    .rainbow {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqbrvZYxhLFZMLfZgkOlpLeGN4gXuFyQQiw&usqp=CAU");
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .covid{
+    
+    .covid {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91");
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .rain-bow{
-        background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.63),rgb(255, 255, 255)), url("https://superfoodsrx.com/wp-content/uploads/2016/09/what-does-eat-a-rainbow-mean.jpg");
+    
+    .rain-bow {
+        background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.63), rgb(255, 255, 255)), url("https://superfoodsrx.com/wp-content/uploads/2016/09/what-does-eat-a-rainbow-mean.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
-    a{
+    
+    a {
         color: rgb(0, 0, 0) !important;
     }
-    .filling{
+    
+    .filling {
         fill: rgb(255, 255, 255) !important;
     }
-    .gener{
+    
+    .gener {
         display: none;
     }
-    .maroon{
+    
+    .maroon {
         background-color: maroon !important;
     }
-    .slogan{
+    
+    .slogan {
         color: rgb(1, 78, 78);
     }
-    .bod{
+    
+    .bod {
         border-right: 3px solid teal !important;
     }
-    .in{
+    
+    .in {
         background-color: rgba(219, 219, 219, 0);
     }
-    .orange{
+    
+    .orange {
         background-color: orange;
     }
-    .indigo{
+    
+    .indigo {
         background-color: indigo;
     }
-    .violet{
+    
+    .violet {
         background-color: violet;
     }
 </style>
+
 <body>
     <div class="row p-5 abu"></div>
     <div class="row">
@@ -161,7 +180,7 @@
             <div class="row tealsy text-white pt-5">
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
                     <p><a href="maternal.html" class="well">Maternal Health</a>
-                    <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
+                        <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
                     </p>
                 </div>
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
@@ -215,18 +234,17 @@
                 <div class="row">
                     <div class="col-lg-7 px-5">
                         <p class="full">Introduction to INHC</p>
-                <p class="small">
-                    INHC is a Blog based on the general well being of the human body in regards to good feeding ( eating healthy ) and exercising. The major area of focus being children, under <a href="child.html">child Health</a> and pregnant mothers, under <a href="maternal.html">Maternal Health</a>.
-                    Covering some aspects of diabetes and Hypertention.
-                    At INHC, we believe that <span><b>"we are what we eat"</b></span>
-                </p>
+                        <p class="small">
+                            INHC is a Blog based on the general well being of the human body in regards to good feeding ( eating healthy ) and exercising. The major area of focus being children, under <a href="child.html">child Health</a> and pregnant
+                            mothers, under <a href="maternal.html">Maternal Health</a>. Covering some aspects of diabetes and Hypertention. At INHC, we believe that <span><b>"we are what we eat"</b></span>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row p-3" id="contact">
                 <h2 class="full font-weight-bold slogan">Contact INHC</h2>
-                <h4>Reach us Now!</h4>
-                <p>Please feel free to contact us, INHC and the author of this blog, here below and we shall give you our time.</p>
+                <h4 class="row full">Reach us Now!</h4>
+                <p>Please feel free to contact us, INHC and the author of this blog, <br> here below and we shall give you our time.</p>
                 <div class="row full px-5 py-3">
                     <div class="row full">
                         <p class="small full">Direct Contact</p>
@@ -235,66 +253,72 @@
                             <p class="full">Dr. Abbey Patricia</p>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <p class="full"><a href="tel:+256784284864">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <p class="full">
+                                        <a href="tel:+256784284864">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                          </svg>  
-                                        Tel: mobile</a></p>
+                                          </svg> Tel: mobile</a>
+                                    </p>
                                 </div>
                                 <div class="col-lg-6">
-                                    <p class="full"><a href="tel:+256751678841">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <p class="full">
+                                        <a href="tel:+256751678841">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                          </svg> 
-                                        Tel: office</a></p>
+                                          </svg> Tel: office</a>
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <p class="full"><a href="tel:+256779070723">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <p class="full">
+                                        <a href="tel:+256779070723">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                          </svg> 
-                                        Tel: home</a></p>
+                                          </svg> Tel: home</a>
+                                    </p>
                                 </div>
                                 <div class="col-lg-6">
-                                    <p class="full"><a href="mailto:abbeybully45@gmail.com">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <p class="full">
+                                        <a href="mailto:abbeybully45@gmail.com">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                                          </svg> 
-                                        Email: administrative</a></p>
+                                          </svg> Email: administrative</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 border-left px-5">
                             <h6 class="full">Tech Support, INHC</h6>
                             <p class="full">Dr. Abbey Patricia</p>
-                            <p class="full"><a href="tel:+256772971878">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <p class="full">
+                                <a href="tel:+256772971878">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                  </svg> 
-                                Tel: work</a></p>
-                            <p class="full"><a href="mailto:giramiapatricia61@gmail.com">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                  </svg> Tel: work</a>
+                            </p>
+                            <p class="full">
+                                <a href="mailto:giramiapatricia61@gmail.com">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                                  </svg> 
-                                Email: administrative</a></p>
+                                  </svg> Email: administrative</a>
+                            </p>
                         </div>
                         <div class="row justify-content-center p-3 ">
                             <p class="small px-5 text-center full">Follow the blogger and all her stories on Food, Health, Exercise and Behavior. Now on social media... </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-whatsapp press" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-whatsapp press" viewBox="0 0 16 16">
                             <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class=" ml-3 bi-twitter press" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class=" ml-3 bi-twitter press" viewBox="0 0 16 16">
                             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class=" ml-3 bi-facebook press" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class=" ml-3 bi-facebook press" viewBox="0 0 16 16">
                             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                           </svg>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="ml-3 bi bi-instagram press" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="ml-3 bi bi-instagram press" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                           </svg>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="ml-3 bi bi-youtube press" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="ml-3 bi bi-youtube press" viewBox="0 0 16 16">
                             <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
                           </svg>
                         </div>
@@ -313,71 +337,96 @@
     </div>
     <!-- Large modal -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content p-5 rain-bow">
-      <div class="row py-2">
-          <div class="col-3 bod">
-              <img src="http://127.0.0.1:8000/static/inhc_Blog/images/logo2.png" alt="" srcset="" width="140" height="80" class=" float-right">
-          </div>
-          <div class="col-2 text-left p-2 ml-2">
-            <h3 class=" font-weight-bold">Rainbow Challenge</h3>
-          </div>
-      </div>
-      <img src="https://miro.medium.com/max/4000/1*-J8kJarMo45AdiLmn-83fw.png" alt="" srcset=""><h5 class="font-weight-bold text-center mt-2">CAN YOU EAT A RAINBOW?</h5><p class=" small">About to have a meal or just had one? Enter the different goodies that make up your meal and get to see how colorful and nutritious your meal can be.</p>
-      <table class="text-white text-center">
-        <tr class=" p-2 text-center">
-            <th class=" teals px-2"><h6>COLOR</h6></th>
-          <th class=" bg-danger"><h6>RED</h6></th>
-          <th class=" orange"><h6>ORANGE</h6></th>
-          <th class=" bg-warning"><h6>YELLOW</h6></th>
-          <th class=" bg-success"><h6>GREEN</h6></th>
-          <th class=" bg-primary"><h6>BLUE</h6></th>
-          <th class=" indigo"><h6>INDIGO</h6></th>
-          <th class=" violet"><h6>VIOLET</h6></th>
-        </tr>
-          <tr class=" border-bottom">
-            <th class="teall px-2"><h6>ITEM</h6></th>
-            <td><input type="text" name="red" id="red" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="orange" id="orange" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="yellow" id="yellow" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="green" id="green" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="blue" id="blue" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="indigo" id="indigo" placeholder="item" class=" w-100 border-0"></td>
-            <td><input type="text" name="violet" id="violet" placeholder="item" class=" w-100 border-0"></td>
-          </tr>
-          <tr class="  border-bottom">
-            <th class=" teals px-2"><h6>NUTIENTS</h6></th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-      </table>
-      <div class="row mt-2">
-          <div class="col-5 w-100">
-            <span class=" px-5 py-1 rounded maroon text-center text-white press1">submit</span>
-          </div>
-          <div class="col-3 bod"><h6 class=" font-weight-bold"><span class=" text-center">RESULTS</span>
-            <div class="progress"> 
-                <div class="progress-bar-striped orange" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                <div class="progress-bar-striped bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div> COLORFUL: </h6>
-              <div class="progress">
-                <div class="progress-bar orange" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
-              </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-5 rain-bow">
+                <div class="row py-2">
+                    <div class="col-3 bod">
+                        <img src="http://127.0.0.1:8000/static/inhc_Blog/images/logo2.png" alt="" srcset="" width="140" height="80" class=" float-right">
+                    </div>
+                    <div class="col-2 text-left p-2 ml-2">
+                        <h3 class=" font-weight-bold">Rainbow Challenge</h3>
+                    </div>
+                </div>
+                <img src="https://miro.medium.com/max/4000/1*-J8kJarMo45AdiLmn-83fw.png" alt="" srcset="">
+                <h5 class="font-weight-bold text-center mt-2">CAN YOU EAT A RAINBOW?</h5>
+                <p class=" small">About to have a meal or just had one? Enter the different goodies that make up your meal and get to see how colorful and nutritious your meal can be.</p>
+                <table class="text-white text-center">
+                    <tr class=" p-2 text-center">
+                        <th class=" teals px-2">
+                            <h6>COLOR</h6>
+                        </th>
+                        <th class=" bg-danger">
+                            <h6>RED</h6>
+                        </th>
+                        <th class=" orange">
+                            <h6>ORANGE</h6>
+                        </th>
+                        <th class=" bg-warning">
+                            <h6>YELLOW</h6>
+                        </th>
+                        <th class=" bg-success">
+                            <h6>GREEN</h6>
+                        </th>
+                        <th class=" bg-primary">
+                            <h6>BLUE</h6>
+                        </th>
+                        <th class=" indigo">
+                            <h6>INDIGO</h6>
+                        </th>
+                        <th class=" violet">
+                            <h6>VIOLET</h6>
+                        </th>
+                    </tr>
+                    <tr class=" border-bottom">
+                        <th class="teall px-2">
+                            <h6>ITEM</h6>
+                        </th>
+                        <td><input type="text" name="red" id="red" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="orange" id="orange" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="yellow" id="yellow" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="green" id="green" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="blue" id="blue" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="indigo" id="indigo" placeholder="item" class=" w-100 border-0"></td>
+                        <td><input type="text" name="violet" id="violet" placeholder="item" class=" w-100 border-0"></td>
+                    </tr>
+                    <tr class="  border-bottom">
+                        <th class=" teals px-2">
+                            <h6>NUTIENTS</h6>
+                        </th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="row mt-2">
+                    <div class="col-5 w-100">
+                        <span class=" px-5 py-1 rounded maroon text-center text-white press1">submit</span>
+                    </div>
+                    <div class="col-3 bod">
+                        <h6 class=" font-weight-bold"><span class=" text-center">RESULTS</span>
+                            <div class="progress">
+                                <div class="progress-bar-striped orange" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar-striped bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div> COLORFUL: </h6>
+                        <div class="progress">
+                            <div class="progress-bar orange" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h6>NUTRITIOUS: </h6>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          <div class="col-3"><h6>NUTRITIOUS: </h6>
-            <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-              </div></div>
-      </div>
+        </div>
     </div>
-  </div>
-</div>
     <div class="row maroon text-white p-3 justify-content-center">
         <div class="row">
             <h6 class="border-right px-5 py-1 press1">Food</h6>
@@ -387,13 +436,13 @@
             <div class=" rounded border row justify-content-center ml-5 px-5">
                 <div class="row mt-3">
                     <p class="small plusCount" id="clicks">0 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" class="plusBtn bi bi-hand-thumbs-up press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" class="plusBtn bi bi-hand-thumbs-up press1 filling" viewBox="0 0 16 16">
                     <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" class="minusBtn bi bi-hand-thumbs-down press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" class="minusBtn bi bi-hand-thumbs-down press1 filling" viewBox="0 0 16 16">
                     <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964l-.261.065zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1z"/>
                 </svg>
-                <p class="small minusCount" id="clicked"> 0</p>
+                    <p class="small minusCount" id="clicked"> 0</p>
                 </div>
             </div>
             <div class="ml-4 row">Give us feedback</div>
@@ -404,21 +453,22 @@
     var item = document.getElementById('item').innerText;
     console.log(item);
 
-    function generalClick(gen){
-        var gen = document.getElementById("general").style.display="block";
-    }
-    function double(dab){
-        var dab = document.getElementById("general").style.display="none";
+    function generalClick(gen) {
+        var gen = document.getElementById("general").style.display = "block";
     }
 
-    function feedback(thumb){
+    function double(dab) {
+        var dab = document.getElementById("general").style.display = "none";
+    }
+
+    function feedback(thumb) {
         var thumb = e.target;
         console.log(thumb);
     }
-    $('#myModal').on('shown.bs.modal', function () {
+    $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').trigger('focus')
-      });
-      $('#myModal').modal(options);
-
+    });
+    $('#myModal').modal(options);
 </script>
+
 </html>

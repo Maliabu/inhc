@@ -1,199 +1,255 @@
-html{
+html {
     overflow-x: hidden;
     font-family: Roboto;
 }
-.cough{
-    background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.mckenzie-apartments.com/wp-content/uploads/2020/01/healthy.png");
+
+.cough {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.mckenzie-apartments.com/wp-content/uploads/2020/01/healthy.png");
     background-position: left;
     background-size: cover;
-    background-repeat: no-repeat;}
-    .coughs{
-        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://birthcontrolpharm.files.wordpress.com/2020/11/maternal-mortality-blog-post-birth-control-pharmacist.png");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .cougher{
-        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.awarenessdays.com/wp-content/uploads/2020/09/childrens-day-1.jpg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .diab{
-        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://images.edexlive.com/uploads/user/imagelibrary/2020/6/14/original/adobestock_276205639.jpeg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .hyp{
-        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://www.aoa.org/AOA/Images/News_2020/BloodPressurCheck900x450.jpg");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .abu{
-        background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgb(255,255,255,0),rgba(255, 255, 255, 0)), url("https://images.everydayhealth.com/images/ways-to-prevent-hypertension-alt2-1440x810.jpg?sfvrsn=db2d3945_1");
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-.generals{
-    background: -webkit-linear-gradient(right,rgba(0, 128, 128, 0),rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
+    background-repeat: no-repeat;
+}
+
+.coughs {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://birthcontrolpharm.files.wordpress.com/2020/11/maternal-mortality-blog-post-birth-control-pharmacist.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cougher {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.awarenessdays.com/wp-content/uploads/2020/09/childrens-day-1.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.diab {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://images.edexlive.com/uploads/user/imagelibrary/2020/6/14/original/adobestock_276205639.jpeg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hyp {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.aoa.org/AOA/Images/News_2020/BloodPressurCheck900x450.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.abu {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://cecodug.org/wp-content/uploads/2020/07/Contact-US.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.generals {
+    background: -webkit-linear-gradient(right, rgba(0, 128, 128, 0), rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
     background-repeat: no-repeat;
     background-size: contain;
 }
-.teals{
-    background: -webkit-linear-gradient(top,rgb(89, 180, 180),teal) !important;
+
+.teals {
+    background: -webkit-linear-gradient(top, rgb(89, 180, 180), teal) !important;
 }
-.teall{
+
+.teall {
     border-left: 3px solid rgb(2, 194, 194) !important;
     color: rgb(2, 194, 194) !important;
     border-right: 3px solid rgb(2, 194, 194) !important;
-    background-color: rgba(2, 194, 194, 0.185) !important;;
+    background-color: rgba(2, 194, 194, 0.185) !important;
+    ;
 }
-.actives{
+
+.actives {
     color: rgb(0, 204, 204) !important;
     border-color: rgb(0, 204, 204) !important;
-    cursor:  pointer !important;
+    cursor: pointer !important;
     transform: scale(0.9);
 }
-.three{
+
+.three {
     background-image: url("images/maternal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.well{
+
+.well {
     color: white !important;
 }
-.well:hover{
+
+.well:hover {
     color: rgb(0, 217, 255);
     text-decoration: none;
 }
-.two{
-    background: -webkit-linear-gradient(right,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://truefitness.com/wp-content/uploads/2019/01/GLOBE2392-athletic-market-header2048x1116_opt1.jpg");
-    background-size: 75%;
+
+.two {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.ualberta.ca/folio/media-library/2019/11/191118-t2diabetes-exercise-banner-413137.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .fa {
     font-size: 50px;
     cursor: pointer;
     user-select: none;
-    }
-    .fa-thumbs-up {
+}
+
+.fa-thumbs-up {
     color: blue;
-    }
-    .fa-thumbs-down {
+}
+
+.fa-thumbs-down {
     color: red;
-    }
-    .fa:hover {
-    transform: scale(1.2);}
-.total{
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
+
+.total {
     background-color: rgb(0, 32, 32);
 }
-.geners{
+
+.geners {
     display: none;
 }
-.teally{
+
+.teally {
     background: -webkit-linear-gradient(top, white, rgb(89, 180, 180));
 }
-.tealsy{
+
+.tealsy {
     background-color: rgb(0, 32, 32);
 }
+
 .noItemsText {
     display: none;
 }
-.full{
+
+.full {
     width: 100%;
 }
-h4, h2{
+
+h4,
+h2 {
     font-weight: lighter !important;
 }
-.one{
-    background: -webkit-linear-gradient(bottom,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
+
+.one {
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
-input{
+
+input {
     background-color: transparent !important;
 }
-.text-black-50{
+
+.text-black-50 {
     color: black !important;
 }
-.press:hover{
+
+.press:hover {
     transform: scale(1.3);
     transition: all 250ms ease-out;
 }
-.press1:hover{
+
+.press1:hover {
     transform: scale(1.05) !important;
     transition: all 200ms ease-out !important;
     cursor: pointer !important;
     text-decoration: none !important;
 }
-.press2:hover{
+
+.press2:hover {
     transform: scale(0.9);
     transition: all 250ms ease-out;
 }
-.press1:active{
+
+.press1:active {
     background-color: rgba(0, 0, 0, 0.671) !important;
 }
-.lines:hover{
+
+.lines:hover {
     background-color: rgba(1, 58, 54, 0.589) !important;
-    cursor:  pointer !important;
+    cursor: pointer !important;
 }
-.active{
+
+.active {
     border: none !important;
     background-color: rgb(0, 90, 90) !important;
     color: aliceblue;
     cursor: pointer;
 }
-.breastfeeding{
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLexifPFWYbcfFY69RaGOkIZXuc-9Y-6V8w&usqp=CAU");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.rainbow{
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqbrvZYxhLFZMLfZgkOlpLeGN4gXuFyQQiw&usqp=CAU");
+
+.breastfeeding {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0)), url("https://onlinelibrary.wiley.com/pb-assets/20487177/Bioactive%20compounds-1615400802.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.covid{
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.rain-bow{
-    background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.63),rgb(255, 255, 255)), url("https://superfoodsrx.com/wp-content/uploads/2016/09/what-does-eat-a-rainbow-mean.jpg");
+
+.rainbow {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://www.helpguide.org/wp-content/uploads/young-woman-running-along-dirt-road-768.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-a{
+
+.covid {
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://www.eatthis.com/wp-content/uploads/sites/4/2019/02/heart-health-diet.jpg?fit=1200%2C879&ssl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rain-bow {
+    background: -webkit-linear-gradient(top, white, rgba(255, 255, 255, 0.63), rgb(255, 255, 255)), url("https://superfoodsrx.com/wp-content/uploads/2016/09/what-does-eat-a-rainbow-mean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
     color: rgb(0, 0, 0) !important;
 }
-.filling{
+
+.filling {
     fill: rgb(255, 255, 255) !important;
 }
-.bread a{
+
+.bread a {
     color: aliceblue !important;
 }
-.maroon{
+
+.maroon {
     background-color: maroon !important;
 }
-.slogan{
+
+.slogan {
     color: rgb(1, 78, 78);
 }
-.bod{
+
+.next {
+    color: rgba(0, 11, 20, 0.63);
+}
+
+.bod {
     border-right: 3px solid teal !important;
 }
-.in{
+
+.in {
     background-color: rgba(219, 219, 219, 0);
 }
-.orange{
+
+.orange {
     background-color: orange;
 }
-.indigo{
+
+.indigo {
     background-color: indigo;
 }
-.violet{
+
+.violet {
     background-color: violet;
 }
