@@ -3,6 +3,18 @@ html {
     font-family: Roboto;
 }
 
+p,
+li {
+    font-size: small !important;
+    font-family: sans-serif !important;
+}
+
+a,
+h6,
+input {
+    font-family: sans-serif !important;
+}
+
 .cough {
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.mckenzie-apartments.com/wp-content/uploads/2020/01/healthy.png");
     background-position: left;
@@ -59,8 +71,16 @@ html {
     border-left: 3px solid rgb(2, 194, 194) !important;
     color: rgb(2, 194, 194) !important;
     border-right: 3px solid rgb(2, 194, 194) !important;
-    background-color: rgba(2, 194, 194, 0.185) !important;
+    background-color: rgba(26, 39, 39, 0.062) !important;
     ;
+}
+
+input {
+    font-size: small !important;
+}
+
+.newer {
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
 .actives {
@@ -70,10 +90,15 @@ html {
     transform: scale(0.9);
 }
 
+.part {
+    color: rgb(0, 204, 204) !important;
+}
+
 .three {
     background-image: url("images/maternal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    image-orientation: flip !important;
 }
 
 .well {
@@ -122,7 +147,8 @@ html {
 }
 
 .tealsy {
-    background-color: rgb(0, 32, 32);
+    background-color: rgb(0, 32, 32) !important;
+    color: aliceblue !important;
 }
 
 .noItemsText {

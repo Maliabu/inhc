@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#673AB6" >
+    <meta name="theme-color" content="#673AB6">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -16,146 +17,180 @@
     <title>INHC Blog/Child Health</title>
 </head>
 <style>
-    
-    .generals{
-        background: -webkit-linear-gradient(right,rgba(0, 128, 128, 0),rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
+    .generals {
+        background: -webkit-linear-gradient(right, rgba(0, 128, 128, 0), rgba(1, 88, 88, 0), rgba(255, 255, 255, 0)), url("https://base.imgix.net/files/base/ebm/industryweek/image/2020/07/coronavirus_conception_COVID_19_istock_getty.5f22f08450774.png?auto=format&fit=max&w=1200");
         background-repeat: no-repeat;
         background-size: contain;
     }
-    .teals{
+    
+    .teals {
         background-color: teal!important;
         color: white;
     }
-    .teall{
-        background-color: rgb(2, 88, 88) !important;
-        color: aliceblue;
-    }
-    h4, h2{
+    
+    h4,
+    h2 {
         font-weight: lighter !important;
     }
+    
     .noItemsText {
-    display: none;
-    border: none !important;
-}
-    .one{
-        background: -webkit-linear-gradient(bottom,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
+        display: none;
+        border: none !important;
+    }
+    
+    .one {
+        background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
     }
-    .three{
+    
+    .three {
         background-image: url("static/inhc_Blog/images/maternal.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
-    input{
+    
+    .two {
+        background: -webkit-linear-gradient(right, rgb(255, 255, 255), rgba(255, 255, 255, 0)), url("static/inhc_Blog/images/htn.jpg");
+        ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    input {
         background-color: transparent !important;
     }
-    .text-black-50{
+    
+    .text-black-50 {
         color: black !important;
     }
-    .press:hover{
+    
+    .press:hover {
         transform: scale(1.3);
         transition: all 250ms ease-out;
     }
-    .press1:hover{
+    
+    .press1:hover {
         transform: scale(1.05) !important;
         transition: all 200ms ease-out !important;
         cursor: pointer !important;
     }
-    .press1:active{
+    
+    .press1:active {
         background-color: rgba(0, 0, 0, 0.671) !important;
     }
-    .lines:hover{
+    
+    .lines:hover {
         background-color: rgba(1, 58, 54, 0.589) !important;
-        cursor:  pointer !important;
+        cursor: pointer !important;
     }
-    .active{
+    
+    .active {
         border: none !important;
         background-color: rgb(0, 90, 90) !important;
         color: aliceblue;
         cursor: pointer;
     }
-    .uno{
+    
+    .uno {
         border-radius: 50%;
         color: transparent;
         background-size: cover;
         padding: 25%;
         background-image: url("https://thumbs.dreamstime.com/z/baby-surrounded-fruits-vegetables-healthy-child-nutrition-cute-boy-sitting-table-eating-apple-white-background-82005381.jpg");
     }
-    .dos{
+    
+    .dos {
         border-radius: 50%;
         color: transparent;
         background-size: cover;
         padding: 25%;
         background-image: url("https://d2lo9qrcc42lm4.cloudfront.net/_contentLarge/Child-nutrition-2.-Credit-Adriane-Ohanesian.jpg?mtime=20201014123249");
     }
-    .thres{
+    
+    .thres {
         border-radius: 50%;
         color: transparent;
         background-size: cover;
         padding: 15%;
         background-image: url("https://c.ndtvimg.com/2021-09/2h4d1b5g_child_120x90_02_September_21.jpg");
     }
-    .actives{
+    
+    .actives {
         color: rgb(0, 204, 204);
     }
-    .breastfeeding{
+    
+    .breastfeeding {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLexifPFWYbcfFY69RaGOkIZXuc-9Y-6V8w&usqp=CAU");
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .rainbow{
+    
+    .rainbow {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqbrvZYxhLFZMLfZgkOlpLeGN4gXuFyQQiw&usqp=CAU");
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .covid{
+    
+    .covid {
         background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.671), rgba(210, 180, 140, 0)), url("https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91");
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .feed{
+    
+    .feed {
         background-image: url("images/pngwing.com.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
-    a{
+    
+    a {
         color: rgb(0, 0, 0) !important;
     }
-    .tealy{
+    
+    .tealy {
         background-color: rgba(0, 83, 83, 0.774);
     }
-    .filling{
+    
+    .filling {
         fill: rgb(255, 255, 255) !important;
     }
-    .gener{
+    
+    .gener {
         display: none;
     }
-    .maroon{
+    
+    .maroon {
         background-color: maroon !important;
     }
-    .slogan{
+    
+    .slogan {
         color: rgb(1, 78, 78);
     }
-    .bod{
+    
+    .bod {
         border-right: 3px solid teal !important;
     }
-    .in{
+    
+    .in {
         background-color: rgba(219, 219, 219, 0);
     }
-    .full{
+    
+    .full {
         width: 100%;
     }
-    .time{
+    
+    .time {
         background-image: url("https://www.kindpng.com/picc/m/114-1141944_transparent-clock-icon-png-transparent-transparent-clock-icon.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .child{
-        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0),rgba(214, 187, 136, 0)), url("https://static.toiimg.com/photo/msid-67851393/67851393.jpg?1219516");
+    
+    .child {
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(214, 187, 136, 0)), url("https://static.toiimg.com/photo/msid-67851393/67851393.jpg?1219516");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
@@ -163,8 +198,9 @@
         padding: 3%;
         clip-path: polygon(71% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
     }
-    .children{
-        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0),rgba(214, 187, 136, 0)), url("https://lh3.googleusercontent.com/ca1JvXJPqcMH5yDW3JL3qk4FdDg15LEN58Yz6Ea-jApXEfj2ZQGnP0o31mvv2ZaXhmoBuo8t=w1080-h608-p-no-v0");
+    
+    .children {
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(214, 187, 136, 0)), url("https://lh3.googleusercontent.com/ca1JvXJPqcMH5yDW3JL3qk4FdDg15LEN58Yz6Ea-jApXEfj2ZQGnP0o31mvv2ZaXhmoBuo8t=w1080-h608-p-no-v0");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
@@ -172,28 +208,33 @@
         padding: 3%;
         clip-path: polygon(100% 0, 100% 100%, 35% 100%, 0 71%, 0 0);
     }
-    .unos{
+    
+    .unos {
         border-radius: 50%;
         color: transparent;
         background-size: cover;
         padding: 15%;
         background-image: url("data:image/jpeg;base64,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");
     }
-    .tips{
-        background: -webkit-linear-gradient(left, rgba(0, 78, 78, 0),rgba(214, 187, 136, 0)), url("https://mommybites.com/wp-content/uploads/2019/08/breast-feed.jpg");
+    
+    .tips {
+        background: -webkit-linear-gradient(left, rgba(0, 78, 78, 0), rgba(214, 187, 136, 0)), url("https://mommybites.com/wp-content/uploads/2019/08/breast-feed.jpg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
         color: white;
         padding: 3%;
     }
-    td{
+    
+    td {
         border: 1px solid white;
     }
-    .well{
+    
+    .well {
         color: rgb(255, 255, 255) !important;
     }
 </style>
+
 <body>
     <div class="row cougher p-5">
     </div>
@@ -227,120 +268,141 @@
                     </div>
                 </div>
             </div>
-            <div class="row tealsy text-white pt-5">
-                <div class="row pr-lg-3 justify-content-end full border-right press2">
-                    <p><a href="maternal.html" class="well">Maternal Health</a>
-                    <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
+            <div class="row teall pt-5">
+                <div class="row pr-lg-5 justify-content-end full border-right press2">
+                    <p><a href="maternal.html">Maternal Health</a>
+                        <!-- <svg id="Layer_1" width="30" height="30" fill="black" style="enable-background:new 0 0 1024 1024;" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_17_"><path d="M359.9,168.4c0-61.1,49.8-110.9,110.9-110.9c61.2,0,110.9,49.8,110.9,110.9c0,61.2-49.7,110.9-110.9,110.9   C409.7,279.3,359.9,229.6,359.9,168.4z" id="XMLID_166_"/><path d="M720.5,643.8v138.7h-154v146.6c0,22-12.8,37.4-31.1,37.4H407.5c-20,0-39-18.2-39-37.4V782.5h-65v-363   c0-60.1,48.9-109,109-109h110c60.1,0,109,48.9,109,109v88.3c16.5,7.1,31.4,17.3,45.2,31.1C705,567.1,720.5,604.4,720.5,643.8z" id="XMLID_167_"/></g><g id="XMLID_1_"/><g id="XMLID_2_"/><g id="XMLID_3_"/><g id="XMLID_4_"/><g id="XMLID_5_"/></svg> -->
                     </p>
                 </div>
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
-                    <p><a href="htn.html" class="well">HTN - Cardio Vascular</a>
+                    <p><a href="htn.html">HTN - Cardio Vascular</a>
                         <!-- <svg data-name="Your Icons" id="Your_Icons" width="30" height="30" fill="black" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#000000;}</style></defs><title/><path class="cls-1" d="M86.33,47.68H59.54l-3-6.42L47.9,54.86,38.72,37.74l-6.19,9.94H9.67a.5.5,0,0,0,0,1H33.08l5.58-9,9.17,17.11,8.59-13.51,2.49,5.35H86.33a.5.5,0,0,0,0-1Z"/><path class="cls-1" d="M17.6,46.58a.5.5,0,0,0,.33-.62,16.92,16.92,0,0,1,1.23-13.19,18.9,18.9,0,0,1,7.29-7.34,16.18,16.18,0,0,1,9.11-2.27c4.27.31,8.67,2.78,12.06,6.79l.38.45.38-.45c3.39-4,7.79-6.48,12.06-6.79a16.18,16.18,0,0,1,9.11,2.27,18.9,18.9,0,0,1,7.29,7.34A16.92,16.92,0,0,1,78.07,46a.5.5,0,0,0,.33.62.39.39,0,0,0,.15,0,.5.5,0,0,0,.48-.35,17.91,17.91,0,0,0-1.31-14,19.92,19.92,0,0,0-7.67-7.73,17.19,17.19,0,0,0-9.68-2.39c-4.38.31-8.86,2.74-12.37,6.7-3.51-4-8-6.39-12.37-6.7A17.21,17.21,0,0,0,26,24.56a19.92,19.92,0,0,0-7.67,7.73,17.91,17.91,0,0,0-1.31,14A.51.51,0,0,0,17.6,46.58Z"/><path class="cls-1" d="M76.62,50.4a.5.5,0,0,0-.69.14,19.18,19.18,0,0,1-2.35,3C64,63.49,50.24,74.78,48,76.61c-2.24-1.83-16-13.12-25.58-23.1a19.18,19.18,0,0,1-2.35-3,.5.5,0,0,0-.84.54A19,19,0,0,0,21.7,54.2c10.51,10.89,25.83,23.32,26,23.45l.31.25.31-.25c.16-.13,15.48-12.56,26-23.45a19.4,19.4,0,0,0,2.47-3.11A.5.5,0,0,0,76.62,50.4Z"/></svg> -->
                     </p>
                 </div>
                 <div class="row pr-lg-5 justify-content-end full border-right press2">
-                    <p><a href="diabetes.html" class="well">Diabetes</a>
+                    <p><a href="diabetes.html">Diabetes</a>
                         <!-- <svg data-name="Layer 1" width="30" height="30" id="Layer_1" viewBox="0 0 65 65" xmlns="http://www.w3.org/2000/svg"><title/><path d="M12.46,52.031H7.821A.954.954,0,0,1,7.146,50.4L19.383,38.164l3.471,3.472Zm-3.322-1.5h2.7l8.894-8.895-1.35-1.351Z" style="fill:#000000"/><path d="M24.206,44.218a2.131,2.131,0,0,1-1.519-.629L17.43,38.332a2.149,2.149,0,0,1,0-3.037l1.423-1.423a.749.749,0,0,1,1.06,0l7.234,7.234a.748.748,0,0,1,0,1.06l-1.422,1.423A2.135,2.135,0,0,1,24.206,44.218Zm-4.823-8.755-.893.892a.651.651,0,0,0,0,.917l5.258,5.256a.662.662,0,0,0,.916,0l.893-.892Z" style="fill:#000000"/><path d="M27.822,43.013a2.132,2.132,0,0,1-1.518-.63l-7.668-7.668a2.147,2.147,0,0,1,0-3.037l7.451-7.451a.75.75,0,0,1,1.06,1.06L19.7,32.738a.649.649,0,0,0,0,.916l7.668,7.669a.649.649,0,0,0,.916,0L46.053,23.551l-8.585-8.584-4.292,4.292A.75.75,0,1,1,32.115,18.2l4.822-4.822a.75.75,0,0,1,1.061,0l9.646,9.645a.752.752,0,0,1,0,1.061l-18.3,18.3A2.132,2.132,0,0,1,27.822,43.013Z" style="fill:#000000"/><path d="M48.318,24.906a2.194,2.194,0,0,1-1.554-.642L36.756,14.255a2.2,2.2,0,0,1,0-3.109l.363-.363a2.2,2.2,0,0,1,3.109,0L50.236,20.791a2.2,2.2,0,0,1,0,3.109l-.363.363A2.19,2.19,0,0,1,48.318,24.906ZM38.673,11.639a.692.692,0,0,0-.493.2l-.364.364a.7.7,0,0,0,0,.987L47.824,23.2a.7.7,0,0,0,.988,0l.364-.364a.7.7,0,0,0,0-.987L39.167,11.843h0A.7.7,0,0,0,38.673,11.639Z" style="fill:#000000"/><path d="M47.113,19.479a.748.748,0,0,1-.53-.22L41.76,14.437a.75.75,0,0,1,0-1.061l3.617-3.617a.772.772,0,0,1,1.06,0l4.823,4.823a.749.749,0,0,1,0,1.06l-3.616,3.617A.751.751,0,0,1,47.113,19.479Zm-3.762-5.573,3.762,3.762,2.556-2.556L45.907,11.35Z" style="fill:#000000"/><path d="M52.538,16.872a2.665,2.665,0,0,1-1.89-.781l-5.719-5.72a2.676,2.676,0,0,1,0-3.78l.9-.9a2.676,2.676,0,0,1,3.78,0l5.72,5.72a2.676,2.676,0,0,1,0,3.78l-.9.9A2.667,2.667,0,0,1,52.538,16.872ZM47.716,6.411a1.171,1.171,0,0,0-.83.343l-.9.9a1.176,1.176,0,0,0,0,1.66l5.72,5.719a1.174,1.174,0,0,0,1.659,0l.9-.9a1.175,1.175,0,0,0,0-1.659l-5.72-5.72A1.172,1.172,0,0,0,47.716,6.411Z" style="fill:#000000"/><path d="M38.322,29.059h0l-14.772-.034a.75.75,0,0,1,0-1.5h0l14.772.034a.75.75,0,0,1,0,1.5Z" style="fill:#000000"/><path d="M28.928,23a.75.75,0,0,1-.531-1.28L29.6,20.509a.75.75,0,0,1,1.06,1.061l-1.206,1.206A.749.749,0,0,1,28.928,23Z" style="fill:#000000"/><path d="M55.1,38.1H44.7a1.972,1.972,0,0,1-1.97-1.971V33.661A1.972,1.972,0,0,1,44.7,31.69H55.1a1.973,1.973,0,0,1,1.971,1.971v2.472A1.973,1.973,0,0,1,55.1,38.1ZM44.7,33.19a.471.471,0,0,0-.47.471v2.472a.471.471,0,0,0,.47.471H55.1a.472.472,0,0,0,.471-.471V33.661a.472.472,0,0,0-.471-.471Z" style="fill:#000000"/><path d="M54.688,41.376H50.993a.75.75,0,0,1,0-1.5h3.7a.75.75,0,0,1,0,1.5Z" style="fill:#000000"/><path d="M48.326,41.376H47.9a.75.75,0,0,1,0-1.5h.423a.75.75,0,0,1,0,1.5Z" style="fill:#000000"/><path d="M49.9,54.409a.75.75,0,0,1-.75-.75v-4.93a.75.75,0,0,1,1.5,0v4.93A.75.75,0,0,1,49.9,54.409Z" style="fill:#000000"/><path d="M52.362,51.944h-4.93a.75.75,0,0,1,0-1.5h4.93a.75.75,0,1,1,0,1.5Z" style="fill:#000000"/><path d="M52.644,56.464H47.151a3.35,3.35,0,0,1-3.345-3.346V49.27a3.35,3.35,0,0,1,3.345-3.346h5.493a3.349,3.349,0,0,1,3.344,3.346v3.848A3.349,3.349,0,0,1,52.644,56.464Zm-5.493-9.04a1.848,1.848,0,0,0-1.845,1.846v3.848a1.848,1.848,0,0,0,1.845,1.846h5.493a1.847,1.847,0,0,0,1.844-1.846V49.27a1.847,1.847,0,0,0-1.844-1.846Z" style="fill:#000000"/><path d="M56.448,60.088h-13.1a3.039,3.039,0,0,1-3.035-3.036V46.63a3.507,3.507,0,0,1,.576-1.93l2.85-4.351V37.311a.75.75,0,0,1,.75-.75h10.82a.75.75,0,0,1,.75.75v3.038l2.85,4.351a3.507,3.507,0,0,1,.576,1.93V57.052A3.039,3.039,0,0,1,56.448,60.088ZM45.237,38.061v2.511a.756.756,0,0,1-.123.412l-2.973,4.538a2.017,2.017,0,0,0-.33,1.108V57.052a1.537,1.537,0,0,0,1.535,1.536h13.1a1.537,1.537,0,0,0,1.535-1.536V46.63a2.017,2.017,0,0,0-.33-1.108L54.68,40.984a.756.756,0,0,1-.123-.412V38.061Z" style="fill:#000000"/></svg> -->
                     </p>
                 </div>
-                <div class="row pr-lg-5 justify-content-end full border-right actives">
+                <div class="row pr-lg-5 justify-content-end full border-right actives mt-5">
                     <p class="actives">Child Health
                         <!-- <svg viewBox="0 0 480 480" width="30" height="30" fill="black" xmlns="http://www.w3.org/2000/svg"><g data-name="07-healthy" id="_07-healthy"><path d="M379.708,152a40.142,40.142,0,0,0,34.633-19.993,8,8,0,0,0,0-8.014,39.992,39.992,0,0,0-69.265,0,8,8,0,0,0,0,8.014A40.142,40.142,0,0,0,379.708,152Zm0-32a24.089,24.089,0,0,1,17.874,8,23.966,23.966,0,0,1-35.747,0A24.088,24.088,0,0,1,379.708,120Z"/><path d="M431.666,410.773c-5.256-4.311-11.463-8.91-18.5-13.718C447.928,376.334,472,332.831,472,288c0-40.636-16.012-89.335-51.784-106.528-14.794-7.11-37.554-10.8-67.444,5.581-1.429-14.286-5.77-26.229-9.856-37.442-7.721-21.184-13.819-37.916.239-66.033l-14.31-7.156c-17.14,34.28-8.916,56.845-.962,78.668,4.625,12.69,9.338,25.637,9.3,41.948-.4.289-.787.561-1.185.857-21.959-16.334-40.706-22.078-56-22.431V128a8.129,8.129,0,0,0-1.6-4.8L232,61.334V16a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8V61.334L25.6,123.2A8.129,8.129,0,0,0,24,128V301.146A32.521,32.521,0,0,0,9.449,320.523c-3.379,11.658-2.547,28.6,20.608,43.134a108.6,108.6,0,0,0,16.9,8.444c-23.713,12.892-26.552,28.7-26.467,35.869.175,14.651,11.621,27.4,29.16,32.486a28.668,28.668,0,0,0,8.017,1.1c14.415,0,32.211-9.751,53.049-29.1,6.265-5.817,12-11.739,16.792-16.971a44.944,44.944,0,0,0,7.383,19.843c9.714,14.386,28.249,24.695,61.975,34.47,32.415,9.395,93.674,18.3,145.66,21.181,12.107.67,23.488,1,33.956,1a318.51,318.51,0,0,0,38-1.951c24.567-3.032,37.474-9.5,40.619-20.351S450.8,426.472,431.666,410.773ZM335.1,215.925a122.047,122.047,0,0,1-4.413,15.463,24.109,24.109,0,0,1-15.484-11.394l-13.85,8.012a40.011,40.011,0,0,0,69.288,0l-13.85-8.012a24.043,24.043,0,0,1-8.355,8.5,118.942,118.942,0,0,0,4.419-22.844c22.537-14.622,43.238-18.023,60.427-9.761C438.435,207.98,456,245.856,456,288c0,41.742-24.742,83.505-58.132,99.088-8.119-5.065-16.992-10.29-26.5-15.6-45.468-25.367-102-50.6-134.411-59.993-6.983-2.024-13.42-3.674-19.391-4.967A112.681,112.681,0,0,1,216,288c0-42.144,17.565-80.02,42.715-92.107,20.166-9.693,45.162-3.346,72.287,18.354A7.949,7.949,0,0,0,335.1,215.925ZM40,136H168v48H40Zm144,0h80v41.134a61.013,61.013,0,0,0-12.216,4.338C216.012,198.665,200,247.364,200,288a127.67,127.67,0,0,0,.994,15.741,92.077,92.077,0,0,0-16.994-.47Zm8-16,32-42.667L256,120ZM88,24H216V56H88ZM84,72H208l-36,48H48ZM40,200H168V306.727c-.623.242-1.242.492-1.849.758A44.931,44.931,0,0,0,149.3,320.277c-1.255-6.98-2.928-15.037-5.109-23.292-8.675-32.832-21-51.777-36.633-56.307-17.54-5.084-34.032-.43-42.012,11.858-3.9,6.008-9.961,20.888,3.184,44.462a108.809,108.809,0,0,0-18.8-1.9h-.3a67.31,67.31,0,0,0-9.625.657Zm14.1,225.088c-10.612-3.075-17.526-9.87-17.615-17.309-.1-8.477,9.2-20.508,35.614-28.849a8,8,0,0,0-.184-15.312c-36.191-10.491-51.6-23.13-47.1-38.64,2.676-9.234,10.767-13.836,24.514-13.836,9.345,0,21.306,2.128,35.954,6.373a8,8,0,0,0,8.342-12.842C75.768,283.5,74.34,268.361,78.959,261.252c4.053-6.239,13.529-8.282,24.141-5.207,17.319,5.02,29.775,52.911,33.31,86.238l-8.042,27.745C107.56,396.3,71.424,430.106,54.105,425.088ZM439.74,445.236c-1.118,3.858-21.214,13.934-96.328,9.776-12.607-.7-25.755-1.754-38.879-3.085l7.812-26.955-15.367-4.454L288.39,450.15c-34.2-4.059-66.637-9.789-87.069-15.711-29.428-8.529-45.827-17.182-53.17-28.056-6.7-9.922-6.818-23.611-.4-45.773s13.844-33.667,24.811-38.468c4.66-2.04,10.289-3.07,17.152-3.07,10.842,0,24.76,2.572,42.781,7.794,2.408.7,4.97,1.5,7.642,2.372l-20,69.01,15.367,4.454,19.745-68.128c31.467,11.819,73.178,31.286,108.316,50.891,8.545,4.767,16.166,9.237,22.972,13.42L378.27,427.42l15.367,4.455,6.957-24C433.889,430.107,440.6,442.259,439.74,445.236Z"/></g></svg> -->
                     </p>
                 </div>
+                <div class="row pr-lg-5 justify-content-end full press1">
+                    <a href="#growth" class="part">Growth and Development</a>
+                </div>
+                <div class="row pr-lg-5 justify-content-end full press1">
+                    <a href="#bf" class="part">Breastfeeding</a>
+                </div>
+                <div class="row pr-lg-5 justify-content-end full press1">
+                    <a href="#nutrition" class="part">Nutrition and Feeding</a>
+                </div>
+                <div class="row pr-lg-5 justify-content-end full press1 mt-2">
+                    <a href="discuss.html" class="border rounded-pill small px-3 py-1">Contribute to child health</a>
+                </div>
             </div>
-            <div class="row pt-5 px-3 justify-content-center tealsy text-white">
+            <div class="row pt-5 px-3 justify-content-center teall">
                 <h4 class="p-2 press1 w-75 text-center rounded-pill">Activities
                 </h4>
                 <ul>
                     <li>
                         <p class=" border-top p-3">
                             <span class=" rounded-pill">Rainbow Challenge</span> <br>
-                            <span class=" small">I can eat a rainbow! Can you eat a Rainbow?</span>
-                            <span class=" small press2 px-3 py-1 well text-dark"><a href="index.html#rainbow" class="well">Accept challenge</a></span>
+                            <span>I can eat a rainbow! Can you eat a Rainbow?</span>
+                            <span class="press2 px-3 py-1 text-dark"><a href="index.html#rainbow">Accept challenge</a></span>
                         </p>
                     </li>
                     <li>
                         <p class="px-3">
                             <span class=" rounded-pill">BreastFeeding Week</span> <br>
-                            <a href="#bf"><span class=" small well press2 px-3 py-1 text-dark">view more</span></a>
+                            <a href="#bf"><span class="press2 px-3 py-1 text-dark">view more</span></a>
                         </p>
                     </li>
                 </ul>
             </div>
-            <div class="row tealsy">
+            <div class="row teall">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner p-2full">
-                      <div class="carousel-item active text-right px-5 breastfeeding" data-interval="10000">
-                        <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Breast Feeding <br> <span class=" font-weight-lighter">Week</span></h4>
-                      </div>
-                      <div class="carousel-item text-right px-5 rainbow" data-interval="5000">
-                          <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Eat A Rainbow Challenge</h4>
-                      </div>
-                      <div class="carousel-item text-right px-5 covid">
-                        <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">#Stay Safe. #Stay Home</h4>
-                      </div>
+                        <div class="carousel-item active text-right px-5 breastfeeding" data-interval="10000">
+                            <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Breast Feeding <br> <span class=" font-weight-lighter">Week</span></h4>
+                        </div>
+                        <div class="carousel-item text-right px-5 rainbow" data-interval="5000">
+                            <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">Eat A Rainbow Challenge</h4>
+                        </div>
+                        <div class="carousel-item text-right px-5 covid">
+                            <h4 class=" font-weight-bold slogan mt-3 border-right pr-2 bod">#Stay Safe. #Stay Home</h4>
+                        </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
-                  </div>
+                </div>
             </div>
-            
-        <div class="row justify-content-center py-3 tealsy">
-            <img src="https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91" alt="covid" srcset="" width="100%" height="100%">
-             <h4 class="text-white">Stay Safe</h4>
-         </div>
-    </div>
+
+            <div class="row justify-content-center py-3 teall">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=b4299eb14b&attid=0.1&permmsgid=msg-a:r-7592642225319002977&th=17b39049e791f6db&view=att&disp=safe&realattid=17b3902e90e3de794c91" alt="covid" srcset="" width="100%" height="100%">
+                <h4>Stay Safe</h4>
+            </div>
+        </div>
         <div class="col-lg-9 px-5">
             <div class="row full border-bottom pt-3 justify-content-center">
                 <div class="row justify-content-center">
                     <p class=" px-5 press1 border-right"><a href="index.html">Home</a></p>
+                    <p class=" px-5 press1 border-right"><a href="discuss.html">Discussions</a></p>
                     <p class=" px-5 press1 border-right"><a href="about.html">About</a></p>
                     <p class=" px-5 press1"><a href="contacts.html">Contact us</a></p>
+                    <p class=" px-5 press1"><a href="general.html">General Topics</a></p>
                 </div>
             </div>
             <div class="row p-5">
                 <div class="col-lg-5">
-                    <h1 class="slogan"><b>Child Health</b></h1>
-                <h4 class="actives"><b>Growth & Development</b></h4>
-                <p class="small">Children, go through various changes and the greatest concern at this time is their growth and development and like it or not, nutrition contributes a lot to this.</p>
-                <p><b>Nutrients</b></p>
-                <p class="small">The nutrients got from the various foods enrich the cells and tissues, and use them to develop the different organs and the physical growth that we see. 
-                    Not forgetting the different stages and milestones that these children go through, ie sitting, crawling, walking, developing of teeth and so on.
+                    <h1 class="slogan font-weight-lighter">Child Health</h1>
+                    <h4 class="part" id="growth"><b>Growth & Development</b></h4>
+                    <p class="small">Children, go through various changes and the greatest concern at this time is their growth and development and like it or not, nutrition contributes a lot to this.</p>
+                    <h4 class="part"><b>Nutrients</b></h4>
+                    <p class="small">The nutrients got from the various foods enrich the cells and tissues, and use them to develop the different organs and the physical growth that we see. Not forgetting the different stages and milestones that these children go through,
+                        ie sitting, crawling, walking, developing of teeth and so on.
                     </p>
                 </div>
                 <div class="col-lg-7 children">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="row unos"> <h1>child health</h1></div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row unos">
+                                <h1>child health</h1>
                             </div>
                         </div>
+                    </div>
                 </div>
                 <ul>
                     <div class="row justify-content-center">
                         <div class="col-lg-7 child">
                             <div class="row">
                                 <div class="col-lg-5">
-                                    <div class="row uno"> <h1>child health</h1></div>
-                                    <div class="row dos mt-1"><h1>child health</h1></div>
+                                    <div class="row uno">
+                                        <h1>child health</h1>
+                                    </div>
+                                    <div class="row dos mt-1">
+                                        <h1>child health</h1>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
+                        </div>
                         <div class="col-lg-5 p-5 small">
-                            <h4 class="actives"><b>Feeding & Nutrition</b></h4>
-                            <p>When a child is not feed well or not receiving the right quality and quantity of required nutrients, their growth and development will definitely be affected and the bad news is that these side effects will not only be seen at the young age but proceed to adult hood too. Such as neurocognitive development, malnourishment, resistance to diseases and other chronic diseases.</p>
+                            <h4 class="part"><b>Feeding & Nutrition</b></h4>
+                            <p>When a child is not feed well or not receiving the right quality and quantity of required nutrients, their growth and development will definitely be affected and the bad news is that these side effects will not only be seen
+                                at the young age but proceed to adult hood too. Such as neurocognitive development, malnourishment, resistance to diseases and other chronic diseases.</p>
                             <p>Therefore, to every parent, caretaker, guardians and teachers, as we plan or create menus for our children, we should put emphasis to what, when and how many times a child is eating depending on the different stages.</p>
-                        </div>   
+                        </div>
                     </div>
                 </ul>
-                <h3 class="full slogan">0 - 6 Months</h3>
-                <p class="actives" id="bf"><u><b>Breast Feeding</b></u></p>
+                <h3 class="full slogan font-weight-lighter">0 - 6 Months</h3>
+                <h4 id="bf" class="part"><b>Breast Feeding</b></h4>
                 <div class="row">
                     <div class="col-lg-4 shadow-sm">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkSZu_pRwAGsbq17ZLuX5TP5mfj5NqDAZb2fT04Wz09Mzu-qreZfSqmf5Budlop9shFLU&usqp=CAU" alt="" srcset="" width="100%" height="100%">
@@ -354,99 +416,123 @@
                 </div>
                 <div class="row rounded">
                     <div class="col-lg-4 p-2">
-                        <p class="actives"><b>UNICEF</b></p>
-                        <p class="small p-1">For the first six crucial moments of life, medical experts and different organizations such as <a class="actives" href="https://unicef.com">UNICEF</a> agreed that the gold standard food of choice is mothers’ milk and thus encouraging exclusive breastfeeding.</p>
+                        <h4 class="part"><b>UNICEF</b></h4>
+                        <p class="small p-1">For the first six crucial moments of life, medical experts and different organizations such as <a class="actives" href="https://unicef.com">UNICEF</a> agreed that the gold standard food of choice is mothers’ milk and thus encouraging
+                            exclusive breastfeeding.</p>
                     </div>
                     <div class="col-lg-4 p-2">
-                        <p class="actives"><b>Hydrating Baby</b></p>
+                        <h4 class="part"><b>Hydrating Baby</b></h4>
                         <p class="small p-1">
                             Do you know why? This is because it contains the exactly correct proportions of fat, cholesterol, protein and carbohydrates for the baby. And this also includes water, so no need of giving the baby extra water.
                         </p>
                     </div>
                     <div class="col-lg-4 p-2">
-                        <p class="actives"><b>Breast Milk</b></p>
+                        <h4 class="part"><b>Breast Milk</b></h4>
                         <p class="small p-1">Breast milk is not a perfect nutritional source but also contains antibodies that provides protection against several diseases. Mother’s milk is also cheap and requires neither ingredients nor time to prepare.</p>
                     </div>
                 </div>
-                <p class="actives"><b>Breast Feeding Tips</b></p>
+                <h4 class="part"><b>Breast Feeding Tips</b></h4>
                 <p class="pt-2 small">Therefore, we need to ensure the child successfully breast feeds and how can we attain this?
-                    <br> Attachment and positioning aids successful breast feeding and also prevent mothers from getting sores which leads to painful breastfeeding. <br>
-There are various ways we can position ourselves and the child during breast feeding, but there are major signs of proper breast attachment 
+                    <br> Attachment and positioning aids successful breast feeding and also prevent mothers from getting sores which leads to painful breastfeeding. <br> There are various ways we can position ourselves and the child during breast feeding,
+                    but there are major signs of proper breast attachment
 
                 </p>
                 <div class="row tips">
-                    <div class="row p-2 rounded">
+                    <div class="row p-2 ">
                         <div class="row p-1 full">
-                            <div class="col-lg-3 tealy">
-                                <div class="full"><h1 class=" circle text-center white-text border">1</h1></div>
-                                <p class="small">The baby’s mouth should be widely open</p></div>
-                            <div class="col-lg-3 tealy"><div class="full"><h1 class=" circle text-center white-text border">2</h1></div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">1</h1>
+                                </div>
+                                <p class="small">The baby’s mouth should be widely open</p>
+                            </div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">2</h1>
+                                </div>
                                 <p class="small">Their chin should be touching your breast</p>
                             </div>
                         </div>
                         <div class="row p-1 full">
-                            <div class="col-lg-3 tealy"><div class="full"><h1 class=" circle text-center white-text border">3</h1></div><p class="small">The top and bottom lips should be curls outwards.</p></div>
-                            <div class="col-lg-3 tealy"><div class="full"><h1 class=" circle text-center white-text border">4</h1></div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">3</h1>
+                                </div>
+                                <p class="small">The top and bottom lips should be curls outwards.</p>
+                            </div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">4</h1>
+                                </div>
                                 <p class="small">You see more of the darker skin (areolar) above the baby’s mouth than below</p>
                             </div>
                             <div class="col-lg-6 feed"></div>
                         </div>
                         <div class="row p-1 full">
-                            <div class="col-lg-3 tealy"><div class="full"><h1 class=" circle text-center white-text border">5</h1></div><p class="small">The cheeks of the baby should be full and rounded, you should not see the cheeks dimpling when your baby sucks.</p></div>
-                            <div class="col-lg-3 tealy"><div class="full"><h1 class=" circle text-center white-text border">6</h1></div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">5</h1>
+                                </div>
+                                <p class="small">The cheeks of the baby should be full and rounded, you should not see the cheeks dimpling when your baby sucks.</p>
+                            </div>
+                            <div class="col-lg-3 bg-light part">
+                                <div class="full">
+                                    <h1 class=" circle text-center white-text teall">6</h1>
+                                </div>
                                 <p class="small">The baby takes deep breaths during breast feeding and you can hear her or him swallow.</p>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-9">
-                        <p class="small tealsy text-white p-3">
-                            Once the baby has had enough, he/she will leave the breast by itself and most times fall asleep. <br><br>
-Well, one may ask how many times a baby should breast feed in a day? The answer is a baby should breast feed whenever she wants and at least 8-12 times in a day. <br> <br>
-With the current situation where mothers have to work, making up to this frequency may be difficult to comply with and thus expressing may be an option, but endeavor the milk is kept in a cool place and should not stay for more than 6-8 hours. And bottles have to be kept clean to avoid chances of infection. <br><br>
-Try hard to avoid supplementing cows’ milk and goats’ milk on the baby’s diet, for this milk is meant for calves and kids not babies. Having less time to breast feed and reduced weight gain may force one to look for supplements such as milk formulas. Ensure to get the right formular and follow the instructions of preparation. But please don’t replace breast milk with formulas, because it remains the standard and best food for babies below six months.
+                        <p class="small teall p-5">
+                            Once the baby has had enough, he/she will leave the breast by itself and most times fall asleep. <br><br> Well, one may ask how many times a baby should breast feed in a day? The answer is a baby should breast feed whenever
+                            she wants and at least 8-12 times in a day. <br> <br> With the current situation where mothers have to work, making up to this frequency may be difficult to comply with and thus expressing may be an option, but endeavor the
+                            milk is kept in a cool place and should not stay for more than 6-8 hours. And bottles have to be kept clean to avoid chances of infection. <br><br> Try hard to avoid supplementing cows’ milk and goats’ milk on the baby’s diet,
+                            for this milk is meant for calves and kids not babies. Having less time to breast feed and reduced weight gain may force one to look for supplements such as milk formulas. Ensure to get the right formular and follow the instructions
+                            of preparation. But please don’t replace breast milk with formulas, because it remains the standard and best food for babies below six months.
 
                         </p>
                     </div>
                     <div class="col-lg-3 time">
                     </div>
                 </div>
-                <h3 class="full">6 - 12 Months</h3>
-                <p class="actives"><u><b>Nutrition and Feeding</b></u></p>
+                <h3 class="full slogan font-weight-lighter">6 - 12 Months</h3>
+                <h4 class="part" id="nutrition"><b>Nutrition and Feeding</b></h4>
                 <div class="row">
                     <div class="col-lg-8 p-3">
                         <p class="small">
-                            This is when the green light is given to mothers and caretakers to introduce other foods into the child’s diet. This is because there is increased nutritional developmental needs which are not all meet by breast milk. But breast feeding should continue till twelve months or more as long as the mother desires. <br><br>
-At this time, attention is paid to what we are giving the baby and how its prepared. <br> <br> <p class="actives"><b>More focus on preparation</b></p>
-<p class="small">But basically, we start with soft food for easy swallowing and digestion, and gradually upgrade to the solid foods. Ensure to give a child a balanced diet, all nutrients must be involved that is carbohydrates, protein, vitamin and mineral salts and fats. Small quantities are good to start with as the child gets used to these new foods.
-    One can prepare a meal by combining one each group</p>
-<p class="actives"><b>Suggestion</b></p>
-<p class="small">A thick porridge is made out of flour of either (maize, soya, cassava or millet) sugar, oil, blue band, milk, groundnuts can be added to the porridge
-    Mashed food i.e., a mixture of matooke, potatoes, cassava, posho (maize, or millet) and fish, meat, beans, ground nuts, or simsim paste. Also, you can add vegetables like greens, pumpkin, carrots, avocado, tomato can also be added into the mixture. <br><br>
-    Benefits of complementary feeding. <br>
-    -	Ensures healthy growth and development of children through the variety
-    </p>
+                            This is when the green light is given to mothers and caretakers to introduce other foods into the child’s diet. This is because there is increased nutritional developmental needs which are not all meet by breast milk. But breast feeding should continue
+                            till twelve months or more as long as the mother desires. <br><br> At this time, attention is paid to what we are giving the baby and how its prepared. <br> <br>
+                            <h4 class="part"><b>More focus on preparation</b></h4>
+                            <p class="small">But basically, we start with soft food for easy swallowing and digestion, and gradually upgrade to the solid foods. Ensure to give a child a balanced diet, all nutrients must be involved that is carbohydrates, protein, vitamin
+                                and mineral salts and fats. Small quantities are good to start with as the child gets used to these new foods. One can prepare a meal by combining one each group</p>
+                            <h4 class="part"><b>Suggestion</b></h4>
+                            <p class="small">A thick porridge is made out of flour of either (maize, soya, cassava or millet) sugar, oil, blue band, milk, groundnuts can be added to the porridge Mashed food i.e., a mixture of matooke, potatoes, cassava, posho (maize,
+                                or millet) and fish, meat, beans, ground nuts, or simsim paste. Also, you can add vegetables like greens, pumpkin, carrots, avocado, tomato can also be added into the mixture. <br><br> Benefits of complementary feeding.
+                                <br> - Ensures healthy growth and development of children through the variety
+                            </p>
                         </p>
                     </div>
-                    <div class="col-lg-4 p-3 tealsy text-white">
-                        <table class="table text-white">
+                    <div class="col-lg-4 p-3 teall">
+                        <table class="table">
                             <tr>
                                 <th>Nutrition</th>
-                            <th>sources</th>
+                                <th>sources</th>
                             </tr>
                             <tr>
                                 <th>Carbohydrates</th>
-                                <td class="small">Porridge, cereals, potatoes</td>
+                                <td class="small part">Porridge, cereals, potatoes</td>
                             </tr>
                             <tr>
                                 <th>Proteins</th>
-                                <td class="small">Dairy products, eggs, meat, fish and poultry, legumes</td>
+                                <td class="small part">Dairy products, eggs, meat, fish and poultry, legumes</td>
                             </tr>
                             <tr>
                                 <th>Vitamins & Minerals</th>
-                                <td class="small">smashed fruits & vegetables</td>
+                                <td class="small part">smashed fruits & vegetables</td>
                             </tr>
                             <tr>
                                 <img src="http://www.bariatriccookery.com/wp-content/uploads/2017/01/protein-rich-foods.jpg" alt="" srcset="" width="100%" height="40%">
@@ -457,22 +543,22 @@ At this time, attention is paid to what we are giving the baby and how its prepa
             </div>
         </div>
     </div>
-    <div class="row maroon text-white p-3 justify-content-center">
+    <div class="row teall p-3 justify-content-center">
         <div class="row">
-            <h6 class="border-right px-5 py-1 press1"><a href="general.html" class="well">Food</a></h6>
+            <h6 class="border-right px-5 py-1 press1"><a href="general.html">Food</a></h6>
             <h6 class="border-right px-5 py-1 press1">Exercise</h6>
-            <h6 class="border-right px-5 py-1 press1"><a href="general.html" class="well">Nutrition</a></h6>
+            <h6 class="border-right px-5 py-1 press1"><a href="general.html">Nutrition</a></h6>
             <h6 class="border-right px-5 py-1 press1">Behavior</h6>
             <div class=" rounded border row justify-content-center ml-5 px-5">
                 <div class="row mt-3">
                     <p class="small plusCount" id="clicks">0 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" class="plusBtn bi bi-hand-thumbs-up press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClick()" width="16" height="16" fill="currentColor" class="plusBtn bi bi-hand-thumbs-up press1 part" viewBox="0 0 16 16">
                     <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" class="minusBtn bi bi-hand-thumbs-down press1 filling" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" onClick="onClicked()" width="16" height="16" fill="currentColor" class="minusBtn bi bi-hand-thumbs-down press1 part" viewBox="0 0 16 16">
                     <path d="M8.864 15.674c-.956.24-1.843-.484-1.908-1.42-.072-1.05-.23-2.015-.428-2.59-.125-.36-.479-1.012-1.04-1.638-.557-.624-1.282-1.179-2.131-1.41C2.685 8.432 2 7.85 2 7V3c0-.845.682-1.464 1.448-1.546 1.07-.113 1.564-.415 2.068-.723l.048-.029c.272-.166.578-.349.97-.484C6.931.08 7.395 0 8 0h3.5c.937 0 1.599.478 1.934 1.064.164.287.254.607.254.913 0 .152-.023.312-.077.464.201.262.38.577.488.9.11.33.172.762.004 1.15.069.13.12.268.159.403.077.27.113.567.113.856 0 .289-.036.586-.113.856-.035.12-.08.244-.138.363.394.571.418 1.2.234 1.733-.206.592-.682 1.1-1.2 1.272-.847.283-1.803.276-2.516.211a9.877 9.877 0 0 1-.443-.05 9.364 9.364 0 0 1-.062 4.51c-.138.508-.55.848-1.012.964l-.261.065zM11.5 1H8c-.51 0-.863.068-1.14.163-.281.097-.506.229-.776.393l-.04.025c-.555.338-1.198.73-2.49.868-.333.035-.554.29-.554.55V7c0 .255.226.543.62.65 1.095.3 1.977.997 2.614 1.709.635.71 1.064 1.475 1.238 1.977.243.7.407 1.768.482 2.85.025.362.36.595.667.518l.262-.065c.16-.04.258-.144.288-.255a8.34 8.34 0 0 0-.145-4.726.5.5 0 0 1 .595-.643h.003l.014.004.058.013a8.912 8.912 0 0 0 1.036.157c.663.06 1.457.054 2.11-.163.175-.059.45-.301.57-.651.107-.308.087-.67-.266-1.021L12.793 7l.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315l-.353-.354.353-.354c.047-.047.109-.176.005-.488a2.224 2.224 0 0 0-.505-.804l-.353-.354.353-.354c.006-.005.041-.05.041-.17a.866.866 0 0 0-.121-.415C12.4 1.272 12.063 1 11.5 1z"/>
                 </svg>
-                <p class="small minusCount" id="clicked"> 0</p>
+                    <p class="small minusCount" id="clicked"> 0</p>
                 </div>
             </div>
             <div class="ml-4 row">Give us feedback</div>
@@ -483,21 +569,22 @@ At this time, attention is paid to what we are giving the baby and how its prepa
     var item = document.getElementById('item').innerText;
     console.log(item);
 
-    function generalClick(gen){
-        var gen = document.getElementById("general").style.display="block";
-    }
-    function double(dab){
-        var dab = document.getElementById("general").style.display="none";
+    function generalClick(gen) {
+        var gen = document.getElementById("general").style.display = "block";
     }
 
-    function feedback(thumb){
+    function double(dab) {
+        var dab = document.getElementById("general").style.display = "none";
+    }
+
+    function feedback(thumb) {
         var thumb = e.target;
         console.log(thumb);
     }
-    $('#myModal').on('shown.bs.modal', function () {
+    $('#myModal').on('shown.bs.modal', function() {
         $('#myInput').trigger('focus')
-      });
-      $('#myModal').modal(options);
-
+    });
+    $('#myModal').modal(options);
 </script>
+
 </html>
